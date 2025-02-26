@@ -45,8 +45,7 @@
 header {
   margin: 0 auto;
   padding: 30px 0;
-  background: linear-gradient(87deg, #10182833 0.18%, #233250cc 99.39%),  
-              url(images/Paw\ image.png);
+  background: url(images/Paw\ image.png);
   width: 100%;
   min-height: 100vh;
   background-size: 150%;
