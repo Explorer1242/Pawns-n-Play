@@ -1416,6 +1416,7 @@ form input::placeholder {
   }
 }
 
+
 @media screen and (max-width: 375px) {
   .forms {
     display: flex;
@@ -1423,9 +1424,20 @@ form input::placeholder {
     width: 100%;
   }
 
+  header {
+    background: linear-gradient(to bottom, #101828cc, #23325099),  
+    url(images/Paw\ image.png);
+    background-size: cover;
+    background-position: bottom left -150px;
+  }
+
   .shop-icon-infos h4 {
     font-weight: 600;
     /* font-size: 24px; */
+  }
+
+  .header-contents h1{
+    font-size: 24px;
   }
 
   .footer-last-contents h4 {
@@ -1438,7 +1450,7 @@ form input::placeholder {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .search-input-mobile.active {
     width: 150px;
   }
@@ -1448,10 +1460,10 @@ form input::placeholder {
   }
 
   header {
-    background: linear-gradient(to bottom, #101828cc, #23325099),  
+    background: linear-gradient(to bottom, #10182899, #23325099),  
     url(images/Paw\ image.png);
     background-size: cover;
-    background-position: bottom left -300px;
+    background-position: bottom left -200px;
   }
 
 }
