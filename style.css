@@ -55,7 +55,9 @@ header {
   background-blend-mode: overlay;
 }
 
-
+.header-btn-mobile{
+  display: block;
+}
 .hamburger {
   font-size: 30px;
   cursor: pointer;
@@ -1019,7 +1021,7 @@ form input::placeholder {
     background-position: left -30px;
   }
   .header-btn {
-    display: none;
+    display: block;
   }
 
   .mobile-logo {
@@ -1054,8 +1056,24 @@ form input::placeholder {
   .header a {
     margin-top: 50px;
   }
+
+  .header-btn{
+    display: none !important;
+  }
+
+ .header a:last-child{
+    display: block !important;
+    width: 100%;
+    color: var(--black);
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px 16px;
+    font-family: var(--Formative-trial);
+  }
+
   .hamburger {
     display: block;
+    position: fixed;
     color: #fff;
   }
 
@@ -1467,3 +1485,5 @@ form input::placeholder {
   }
 
 }
+
+
